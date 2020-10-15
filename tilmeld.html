@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Tæl Skridt - Prototype</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    
+<div class="topnav">
+    <img class="navlogo" src="images/logo.png" a href="index.html">
+  <a href ="logind.html">Log Ind</a>
+  <a href="tilmeld.html">Tilmeld</a>
+  <a href="#contact">Shop</a>
+  <a href="#about">Materialer</a>
+  <a href="#about">Spørgsmål og Svar</a>
+  <a href="#about">Om</a>
+</div>    
+    
+<h1 class="tilmeld_overskrift">Såden tilmelder du dig!</h1>
+    <div class="imgkasse">
+    <img class="infoimg" src="images/infografik.png" width="100%">
+    </div>
+    
+
+    <form action="/action_page.php">
+      <div class="formcontainer">
+           <section id="navn">
+      <hr/>   <h2>Opret dig som holdkaptajn</h2>
+      <div class="container">
+        <label for="uname"><strong>E-mail Adresse</strong></label>
+        <input id="loginform" type="text" name="uname" required>
+        <label for="psw"><strong>Adgangskode</strong></label>
+        <input id="loginform" type="password" name="psw" required>
+                  <label for="psw"><strong>Gentag adgangskode</strong></label>
+        <input id="loginform" type="password" name="psw" required>
+      </div>
+      <button id="next" type="submit">Næste</button>
+          </section></div></form>
+
+    <div class="formcontainer">
+  <section id="radio">
+  <input type="radio">
+  <label for="male">Holdkaptajn</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Deltager</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Andet</label><br><br>
+            <button type="button" class="valgBtn">Tilmeld</button>
+        </section></div>
+               
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/js.js"></script>
+    
+</body>
+</html>
