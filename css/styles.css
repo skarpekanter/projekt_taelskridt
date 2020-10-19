@@ -120,3 +120,44 @@ button {
       width: 100%;
       border-radius: 20px;
 }
+
+.input{
+  text-align: center;
+  margin: 40px auto;
+}
+
+input[type="submit"]{
+  padding: 10px;
+  background: #2873AD;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 400px;
+  height: 40px; 
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 21px;
+}
+
+.card{
+  width: 10%;
+  background: #2873AD;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+
+.card p{
+  text-align: center;
+  margin: 20px 0;
+  font-size:20px;
+    color: white;
+}
